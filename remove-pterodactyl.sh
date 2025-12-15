@@ -83,7 +83,7 @@ sudo iptables -t nat -F || true
 sudo iptables -t nat -X || true
 
 echo
-echo "Done. Reboot recommended."
+echo "Done! (reboot is recommended)"
 read -r -p "Reboot now? (y/N): " rb
 if [[ "${rb,,}" == "y" ]]; then
   sudo reboot
