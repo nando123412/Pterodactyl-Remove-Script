@@ -98,14 +98,16 @@ This will install the script and run it automatically.
 
 ### manual install
 1. Download the script:
-
 ```wget https://raw.githubusercontent.com/nando123412/Pterodactyl-Remove-Script/main/remove-pterodactyl.sh```
 
-3. Inspect the script (recommended): ```nano remove-pterodactyl.sh```
+3. Inspect the script (recommended):
+```nano remove-pterodactyl.sh```
 
-4. Make the script executable: ```chmod +x remove-pterodactyl.sh```
+5. Make the script executable:
+```chmod +x remove-pterodactyl.sh```
 
-5. Run the script: ```./remove-pterodactyl.sh```
+7. Run the script:
+```./remove-pterodactyl.sh```
 
 You will be required to type:
 DELETE-PTERODACTYL
